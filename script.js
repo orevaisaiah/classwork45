@@ -107,7 +107,7 @@ console.log(names.toString());
 function gradeScore(){
     let score = document.getElementById('score').value;
     if (score )
-}*/
+}
 
 let users = [
     {
@@ -127,4 +127,13 @@ users.forEach(function(val, i, arr){
 });
 users.map(function(val, i, arr){
     console.log(val)
-});
+});*/
+
+for(let i = 0; i <= 15; i++){
+    if(i % 2 == 0){
+        console.log(i, 'is even');
+    }
+    else{
+        console.log(i, 'is odd');
+    }
+}
